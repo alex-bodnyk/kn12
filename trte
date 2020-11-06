@@ -1,0 +1,5 @@
+l="абвгґдеєжзиіїйклмнопрстуфхцчшщьюяабвгґдеєжзиіїйклмнопрстуфхцчшщьюя,abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+
+slv=input("Введіть слово:") key=int(1) slv_low=slv.lower() slv=""
+
+for letter in slv_low: position=al.find(letter) new_position=position+key if letter in al: slv=slv+al[new_position] else: slv=slv+letter print(slv)
